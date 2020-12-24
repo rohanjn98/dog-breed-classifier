@@ -77,7 +77,7 @@ The expected accuracies are as follows:
 </p>
 
 ## Conclusion
-The model that I have developed as mentioned in section (5) works well and surpasses the expected accuracy. This solves our problem
+The model that I have developed works well and surpasses the expected accuracy. This solves our problem
 statement of correctly classifying an input image to a dog breed class. The achieved accuracy for the model is 83% test accuracy that far
 exceeds the expected 60%. There are a few things that might help improve the model performance that I have also enlisted in the
 dog_app.ipynb. Some of them include:
