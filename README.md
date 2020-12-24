@@ -66,8 +66,8 @@ rate of 0.02. These are standard settings for multi-class classification problem
 The loss function selected is the cross entropy loss.<br>
 Accuracy = Correctly classified items / All classified items<br>
 The expected accuracies are as follows:
-- Scratch CNN without transfer learning = 10%, Result = 16%
-- Scratch CNN with transfer learning = 60%, Result = 83% using Resnet101 architecture
+1. Scratch CNN without transfer learning = 10%, Result = 16%
+2. Scratch CNN with transfer learning = 60%, Result = 83% using Resnet101 architecture
 
 ## Results
 <p float="left">
@@ -81,14 +81,11 @@ The model that I have developed works well and surpasses the expected accuracy. 
 statement of correctly classifying an input image to a dog breed class. The achieved accuracy for the model is 83% test accuracy that far
 exceeds the expected 60%. There are a few things that might help improve the model performance that I have also enlisted in the
 dog_app.ipynb. Some of them include:
-- The model could be trained for higher epochs (>20) that might
+1. The model could be trained for higher epochs (>20) that might
 improve the current metrics.
-- Fine-tuning of parameters could be done on the basis of train, valid
+2. Fine-tuning of parameters could be done on the basis of train, valid
 and test loss curves or metrics.
-- Since this can be deployed on a mobile or web app, A/B testing could
+3. Since this can be deployed on a mobile or web app, A/B testing could
 be done with different sets of parameters at once and then decide on
 what parameter values to be chosen. This is important as we need to
 stay relevant with input data and the data available for training.
-- Last but not the least, more image augmentation techniques could be
-used to virtually increase the dataset size, this might be helpful for
-better model performance.
